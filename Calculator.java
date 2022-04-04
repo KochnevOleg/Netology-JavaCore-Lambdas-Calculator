@@ -1,4 +1,4 @@
-package Unit2.JavaCore.Calculator;
+package Unit2.JavaCore.Lambdas.Calculator;
 
 import java.util.function.*;
 

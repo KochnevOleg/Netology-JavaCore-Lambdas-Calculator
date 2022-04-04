@@ -1,4 +1,4 @@
-package Unit2.JavaCore.Calculator;
+package Unit2.JavaCore.Lambdas.Calculator;
 
 public class Main {
     public static void main(String[] args) {
