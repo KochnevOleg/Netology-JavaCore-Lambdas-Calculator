@@ -1,4 +1,4 @@
-package Unit2.JavaCore.Lambdas.Calculator;
+package Unit2.JavaCore.Calculator;
 
 import java.util.function.*;
 
@@ -9,13 +9,7 @@ public class Calculator {
     BinaryOperator<Integer> plus = (x, y) -> x + y;
     BinaryOperator<Integer> minus = (x, y) -> x - y;
     BinaryOperator<Integer> multiply = (x, y) -> x * y;
-    BinaryOperator<Integer> divide = (x, y) -> {
-        if (y == 0) {
-            return 0;
-        } else {
-            return x / y;
-        }
-    };
+    BinaryOperator<Integer> divide = (x, y) -> x / y;
 
     UnaryOperator<Integer> pow = (x) -> x * x;
 //    UnaryOperator<Integer> abs = (x) -> x > 0 ? x : x * -1; // не учитывется case когда х == 0. Хотя у меня метод работает и с тернарным оператором.
